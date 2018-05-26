@@ -189,7 +189,7 @@ def draw_if_interactive():
     pass
 
 
-def show():
+def show(**kw):
     for manager in Gcf.get_all_fig_managers():
         manager.show()
 
